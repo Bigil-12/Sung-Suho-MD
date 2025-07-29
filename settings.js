@@ -13,10 +13,10 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "malvin~5GVQRD7T#PSCrWCvaq3cz_DrMKyKRVm_fHKubcFV5aFOxVjQgXn0", // Your bot's session ID (keep secure)
-  PREFIX: getConfig("PREFIX") || ",", // Command prefix (e.g., ., /, !, *)
+  SESSION_ID: process.env.SESSION_ID || "drakonis~JnsXzL7R#O-zYFeDkvSq5Hjzz7jRsNhG2kj4ykXCBnaHM9fembOw", // Your bot's session ID (keep secure)
+  PREFIX: getConfig("PREFIX") || ".", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
-  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ᴍᴀʟᴠɪɴ-xᴅ", // Bot display name
+  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || " _вιgιℓ_ѕєr♡💖◦•", // Bot display name
   MODE: getConfig("MODE") || process.env.MODE || "private", // Bot mode: public/private/group/inbox
   REPO: process.env.REPO || "https://github.com/XdKing2/MALVIN-XD", // Bot GitHub repo dont change this❗️
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
@@ -33,7 +33,7 @@ module.exports = {
   AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆 🤖*", // Status reply message
   READ_MESSAGE: process.env.READ_MESSAGE || "false", // Mark messages as read automatically?
   REJECT_MSG: process.env.REJECT_MSG || "*📵 Calls are not allowed on this number unless you have permission. 🚫*", // Message on rejected call
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/xshsmk",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/cUfZFi7.jpeg",
 // add img for alive msg
 
   LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ✦ ғʀᴏᴍ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/XdKing2/MALVIN-XD",
@@ -44,7 +44,7 @@ module.exports = {
   OWNER_REACT: process.env.OWNER_REACT || "false", // Owner-specific reacts
   CUSTOM_REACT: process.env.CUSTOM_REACT || "false", // Use custom emoji reactions
   CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍", // Custom react emojis
-  STICKER_NAME: process.env.STICKER_NAME || "ᴋʜᴀɴ-ᴍᴅ", // Sticker pack name
+  STICKER_NAME: process.env.STICKER_NAME || " _вιgιℓ_ѕєr♡💖◦•", // Sticker pack name
   AUTO_STICKER: process.env.AUTO_STICKER || "false", // Auto-send stickers
 
   // ===== MEDIA & AUTOMATION =====
@@ -60,16 +60,16 @@ module.exports = {
   ANTI_LINK: process.env.ANTI_LINK || "true", // Block links in groups
   ANTI_VV: process.env.ANTI_VV || "true", // Block view-once messages
   DELETE_LINKS: process.env.DELETE_LINKS || "false", // Auto-delete links
-  ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", // Where to log deleted messages ('inbox' or 'same')
+  ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", // Where to log deleted messages ('inbox' or 'same')
   ANTI_BOT: process.env.ANTI_BOT || "true", // Block other bots?
-  PM_BLOCKER: process.env.PM_BLOCKER || "true", // Block private messages?
+  PM_BLOCKER: process.env.PM_BLOCKER || "false", // Block private messages?
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
   DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ-xᴅ*", // Bot description/footer
   PUBLIC_MODE: process.env.PUBLIC_MODE || "true", // Allow public commands?
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false", // Show bot always online
-  AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates
-  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true", // Mark status as seen
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true", // Show bot always online
+  AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false", // React to status updates
+  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false", // Mark status as seen
   AUTO_BIO: process.env.AUTO_BIO || "false", // Automatically update bio
   WELCOME: process.env.WELCOME || "false", // Enable welcome messages
   GOODBYE: process.env.GOODBYE || "false", // Enable goodbye messages
